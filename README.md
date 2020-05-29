@@ -11,7 +11,7 @@ being fully aware of Shift and AltGr key modifiers.
 Installation
 ------------
 
-See [INSTALL](./INSTALL) for installation/build notes.
+See [INSTALL](./INSTALL.md) for installation/build notes.
 
 Usage how-to
 ------------
