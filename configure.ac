@@ -2,7 +2,7 @@
 # Process this file with autoconf to produce a configure script.
 
 AC_PREREQ(2.64)
-AC_INIT([logkeys],[0.1.1b-svn],[kerncece+logkeys@gmail.com],[],[https://github.com/kernc/logkeys/])
+AC_INIT([zxlog],[3.59],[zxlog@rcaldas.com],[],[https://github.com/rcaldas-com/zxlog/])
 AC_CONFIG_SRCDIR([src/logkeys.cc])
 AM_INIT_AUTOMAKE([-Wall foreign])
 AC_CONFIG_HEADERS([config.h])
@@ -55,7 +55,7 @@ AC_CHECK_FILE(
 # Checks for header files.
 
 AC_CHECK_HEADERS(
-  [cstdio cerrno cwchar cstring cassert sstream cstdlib csignal error.h unistd.h getopt.h sys/file.h sys/stat.h linux/input.h], 
+  [cstdio cerrno cwchar cstring cassert sstream cstdlib csignal error.h unistd.h getopt.h sys/file.h sys/stat.h linux/input.h],
   [],
   [AC_MSG_ERROR([Expected header file is missing!])]
 )
